@@ -1,1 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Shaheen Yousuf | Pahari Poet & Community Figure</title>
+
+  <meta name="description"
+    content="Public profile of Shaheen Yousuf, Pahari poet and community figure from Kashmir.">
+
+  <meta name="keywords"
+    content="Shaheen Yousuf, Pahari poet, Pahari poetry, Pahari community, Kashmir">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      line-height: 1.7;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #173b7a, #2867b2);
+      color: white;
+      text-align: center;
+      padding: 65px 20px 55px;
+    }
+
+    .profile {
+      width: 115px;
+      height: 115px;
+      border-radius: 50%;
+      background: white;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #2867b2;
+      font-size: 42px;
+      font-weight: bold;
+      border: 5px solid rgba(255,255,255,.7);
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      opacity: .95;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 25px 16px 50px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 25px;
+      margin: 18px 0;
+      box-shadow: 0 6px 22px rgba(0,0,0,.07);
+    }
+
+    h2 {
+      color: #173b7a;
+      margin-bottom: 12px;
+      font-size: 23px;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 15px;
+    }
+
+    .fact {
+      background: #f0f5ff;
+      padding: 14px;
+      border-radius: 12px;
+    }
+
+    .fact strong {
+      display: block;
+      color: #173b7a;
+      margin-bottom: 3px;
+    }
+
+    .family-member {
+      padding: 14px;
+      margin: 10px 0;
+      background: #f0f5ff;
+      border-radius: 12px;
+    }
+
+    .family-member strong {
+      color: #173b7a;
+    }
+
+    .quote {
+      border-left: 4px solid #2867b2;
+      padding-left: 15px;
+      font-style: italic;
+      color: #4b5568;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #172033;
+      color: white;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .facts {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="profile">
+      SY
+    </div>
+
+    <h1>Shaheen Yousuf</h1>
+
+    <p class="subtitle">
+      Pahari Poet & Community Figure
+    </p>
+
+  </section>
+
+
+  <main class="container">
+
+    <!-- ABOUT -->
+    <section class="card">
+
+      <h2>About Shaheen Yousuf</h2>
+
+      <p>
+        Shaheen Yousuf is a Pahari poet and community figure from
+        Kashmir. He has been associated with Pahari cultural and
+        community activities and has worked for many years to support
+        the development and advancement of Pahari youth.
+      </p>
+
+    </section>
+
+
+    <!-- PROFILE -->
+    <section class="card">
+
+      <h2>Profile</h2>
+
+      <div class="facts">
+
+        <div class="fact">
+          <strong>Full Name</strong>
+          Shaheen Yousuf
+        </div>
+
+        <div class="fact">
+          <strong>Born</strong>
+          1975
+        </div>
+
+        <div class="fact">
+          <strong>Region</strong>
+          Kashmir, India
+        </div>
+
+        <div class="fact">
+          <strong>Known For</strong>
+          Pahari poetry & community work
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAMILY -->
+    <section class="card">
+
+      <h2>Family</h2>
+
+      <div class="family-member">
+        <strong>Father</strong>
+        <br>
+        Ghulam Hassan Mir
+      </div>
+
+      <div class="family-member">
+        <strong>Brother</strong>
+        <br>
+        Abdul Sattar Mir
+      </div>
+
+      <div class="family-member">
+        <strong>Brother</strong>
+        <br>
+        Majeed Ahmad Mir
+      </div>
+
+      <p style="margin-top:15px;">
+        Shaheen Yousuf is the eldest among the three brothers.
+      </p>
+
+    </section>
+
+
+    <!-- POETRY -->
+    <section class="card">
+
+      <h2>Pahari Poetry</h2>
+
+      <p>
+        Shaheen Yousuf describes himself as a Pahari poet and is
+        interested in preserving and promoting Pahari language,
+        culture and identity through poetry and community engagement.
+      </p>
+
+    </section>
+
+
+    <!-- YOUTH WORK -->
+    <section class="card">
+
+      <h2>Work for Pahari Youth</h2>
+
+      <p>
+        A central focus of Shaheen Yousuf's public work is supporting
+        Pahari youth, encouraging their progress and raising issues
+        concerning justice and opportunities for young people.
+      </p>
+
+    </section>
+
+
+    <!-- COMMUNITY WORK -->
+    <section class="card">
+
+      <h2>Community Work</h2>
+
+      <p>
+        According to his own account, Shaheen Yousuf has spent many
+        years working in connection with the Pahari tribal movement
+        and community-related activities.
+      </p>
+
+    </section>
+
+
+    <!-- PERSONAL STATEMENT -->
+    <section class="card">
+
+      <h2>Personal Statement</h2>
+
+      <p class="quote">
+        “My aim is to help Pahari youth move forward and to work for
+        justice and opportunities for them.”
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    © 2026 Shaheen Yousuf · Public Profile
+
+  </footer>
+
+</body>
+</html>
